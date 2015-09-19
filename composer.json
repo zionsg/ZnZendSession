@@ -1,0 +1,30 @@
+{
+    "name": "zionsg/znzend-session",
+    "description": "A Zend Framework 2 module to implement different sessions per module in an application",
+    "type": "library",
+    "keywords": [
+        "zf2",
+        "zendframework",
+        "session"
+    ],
+    "homepage": "https://github.com/zionsg/ZnZendSession",
+    "authors": [
+        {
+            "name": "Zion Ng",
+            "email": "zion@intzone.com",
+            "homepage": "http://zion.sg/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "ZnZendSession": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
